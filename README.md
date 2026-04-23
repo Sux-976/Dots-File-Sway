@@ -81,3 +81,18 @@ A tecla **Super** (`Mod4`) é o modificador principal do sistema.
 <img width="1366" height="768" alt="2026-04-23_08-46-43" src="https://github.com/user-attachments/assets/6dc5829f-c25f-4a5d-8dcc-3b70da3427c0" />
 
 <img width="1366" height="752" alt="2026-04-23_08-49-33" src="https://github.com/user-attachments/assets/8b2e7b93-8d87-4d99-be49-a99d10ea6f28" />
+
+
+### WayBar Opções:
+
+Opção 1
+<img width="1366" height="61" alt="2026-04-23_08-54-23" src="https://github.com/user-attachments/assets/f21096c7-9436-4743-9cad-1ac8d0307adc" />
+
+Opção 2
+<img width="1366" height="54" alt="2026-04-23_08-56-06" src="https://github.com/user-attachments/assets/6a4b11f4-1fba-477c-a097-d609dd25546f" />
+
+### Wlogout
+
+<img width="1366" height="765" alt="2026-04-23_08-56-52" src="https://github.com/user-attachments/assets/cc147531-7df9-483c-a780-3a8d3b423aff" />
+
+
