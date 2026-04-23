@@ -40,47 +40,40 @@ sudo apt update && sudo apt install \
     grim slurp brightnessctl pulseaudio-utils lxpolkit \
     fonts-font-awesome fonts-firacode
 ```
-⌨️ Atalhos de Teclado (Principais)
-A tecla Super (Mod4) é o modificador principal.
 
-Geral
-Mod + Enter : Abrir Terminal (Kitty)
+---
 
-Mod + D : Abrir Menu de Apps (Wofi)
+## ⌨️ Atalhos de Teclado (Principais)
 
-Mod + N : Central de Notificações (SwayNC)
+A tecla **Super** (`Mod4`) é o modificador principal do sistema.
 
-Mod + Shift + Q : Fechar Janela focada
+### 🚀 Sistema & Apps
+* **`Mod + Enter`** : Abrir Terminal (**Kitty**)
+* **`Mod + D`** : Abrir Menu de Apps (**Wofi**)
+* **`Mod + N`** : Central de Notificações (**SwayNC**)
+* **`Mod + Shift + Q`** : Fechar Janela focada
+* **`Mod + E`** : Abrir editor Geany
 
-Mod + P : Esconder/Mostrar Waybar
+### 📋 Navegação e Layout
+* **`Mod + Setas`** (ou `H J K L`) : Mover foco entre janelas
+* **`Mod + Shift + Setas`** : Mover janela de lugar
+* **`Mod + F`** : Alternar Tela Cheia (Fullscreen)
+* **`Mod + Shift + Espaço`** : Alternar modo flutuante
+* **`Mod + R`** : Entrar no **Modo Redimensionar**
 
-Mod + E : Abrir editor Geany
+### 🎵 Multimídia & Captura
+* **`F8` / `F9`** : Controle de Volume (Baixar/Elevar)
+* **`Print`** : Screenshot da tela inteira
+* **`Mod + Print`** : Selecionar área específica para Screenshot
 
-Navegação e Layout
-Mod + Setas ou H J K L : Mover foco
+---
 
-Mod + Shift + Setas : Mover janela
+## 🔧 Notas Técnicas
 
-Mod + F : Tela cheia (Fullscreen)
+* **Teclado:** Configurado nativamente para layout brasileiro (`br`).
+* **Integração GTK:** O tema de cursor é forçado via `gsettings` para garantir compatibilidade estética com apps GNOME e Firefox.
+* **Wallpaper:** O sistema busca automaticamente a imagem em `~/Downloads/wllll.jpeg`.
 
-Mod + Shift + Espaço : Alternar modo flutuante
+---
 
-Mod + R : Entrar no Modo Redimensionar
-
-Multimídia e Sistema
-F8 / F9 : Controle de Volume
-
-Print : Screenshot da tela inteira
-
-Mod + Print : Selecionar área para Screenshot
-
-Mod + Shift + E : Sair do Sway
-
-🔧 Notas Técnicas
-Teclado: Configurado para layout brasileiro (br).
-
-Integração GTK: O tema de cursor é forçado via gsettings para que aplicativos como Firefox sigam a estética do sistema.
-
-Wallpaper: Atualmente configurado para ler de ~/Downloads/wllll.jpeg.
-
-Configurado com foco em produtividade por [Seu Nome]
+*Configurado com foco em produtividade por Ramon*
