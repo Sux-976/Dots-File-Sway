@@ -1,0 +1,87 @@
+/* ============================================================
+   WAYBAR CSS - ESTILO PÍLULA SOBRE PÍLULA
+   ============================================================ */
+
+/* 1. Limpa o fundo da janela do sistema (Essencial para não ficar o quadrado) */
+window#waybar {
+    background-color: rgba(0, 0, 0, 0);
+    background: none;
+    border: none;
+    box-shadow: none;
+}
+
+/* 2. A PÍLULA MÃE (O container que envolve tudo) */
+window#waybar > box {
+    background-color: rgba(17, 17, 27, 0.9); /* Cor de fundo com 50% de transparência */
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 24px; /* Formato de pílula grande */
+    margin: 2px 10px;    /* Faz ela flutuar na tela */
+    padding: 1px 4px;    /* Espaço interno para as pílulas filhas */
+}
+
+/* 3. AS DIVISÕES INTERNAS (Pílulas Left, Center e Right) */
+.modules-left,
+.modules-center,
+.modules-right {
+    background-color: #11111b; /* Cor sólida para destacar do fundo */
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 18px;       /* Arredondamento das divisões */
+    padding: 0px 8px;
+    margin: 1px 2px;               /* Espaçamento entre as divisões */
+    transition: all 0.3s ease;
+}
+
+/* 4. RESET DE MÓDULOS (Garante que os ícones fiquem limpos) */
+#custom-launcher,
+#taskbar,
+#workspaces,
+#network,
+#pulseaudio,
+#custom-notification,
+#clock,
+#custom-menu {
+    background: transparent;
+    color: #a78bfa;
+    padding: 0 8px;
+    margin: 0;
+}
+
+/* 5. WORKSPACES (Estilo dos botões internos) */
+#workspaces button {
+    color: #585b70;
+    padding: 0 6px;
+    background: transparent;
+}
+
+#workspaces button.focused,
+#workspaces button.active {
+    color: #cba6f7;
+    background: rgba(203, 166, 247, 0.15);
+    border-radius: 10px;
+}
+
+#workspaces button:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+/* 6. CORES PERSONALIZADAS (Igual à sua imagem) */
+#custom-launcher { 
+    color: #89b4fa; 
+}
+
+#clock { 
+    color: #f5e0dc; 
+    font-weight: bold; 
+}
+
+#custom-menu { 
+    color: #f38ba8; 
+}
+
+/* 7. EFEITO DE HOVER NAS PÍLULAS */
+.modules-left:hover,
+.modules-center:hover,
+.modules-right:hover {
+    background-color: #1e1e2e; /* Clareia levemente ao passar o mouse */
+}

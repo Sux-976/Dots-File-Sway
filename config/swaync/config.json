@@ -1,0 +1,28 @@
+{
+  "positionX": "right",
+  "positionY": "top",
+  "layer": "top",
+  "control-center-width": 300,
+  "control-center-height": 450,
+  "control-center-margin-top": 10,
+  "control-center-margin-right": 10,
+  "control-center-margin-bottom": 10,
+  "widgets": [
+    "buttons-grid",
+    "volume",
+    "notifications"
+  ],
+  "widget-config": {
+    "volume": {
+      "label": "󰕾"
+    },
+    "buttons-grid": {
+      "actions": [
+        {
+          "label": " Sair",
+          "command": "wlogout -b 2"
+        }
+      ]
+    }
+  }
+}

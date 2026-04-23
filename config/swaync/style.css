@@ -1,0 +1,33 @@
+/* Container Principal */
+.control-center {
+    background: #11111b; 
+    border-radius: 20px;
+    padding: 15px;
+    /* Isso ajuda a manter o menu "curto" se houver poucas notificações */
+    margin: 5px; 
+}
+
+/* Botão do wlogout */
+.widget-buttons-grid > button {
+    background: #f38ba8;
+    color: #11111b;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px;
+}
+
+/* Slider de Som */
+.widget-volume {
+    background: #1e1e2e;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 15px;
+    color: #cba6f7;
+}
+
+/* Área de notificações (limitando para não crescer demais) */
+.widget-notifications {
+    max-height: 200px; /* Limita o espaço das notificações */
+    background: transparent;
+}

@@ -1,0 +1,23 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 32,
+    "margin-top": 8,
+    "margin-left": 10,
+    "margin-right": 10,
+    "spacing": 0, // Remova o espaçamento entre os módulos aqui
+
+    "modules-left": ["custom/launcher", "wlr/taskbar"],
+    "modules-center": ["sway/workspaces"],
+    "modules-right": ["network", "pulseaudio", "custom/notification", "clock", "custom/menu"],
+
+    // Configurações dos módulos permanecem as mesmas que você já tem
+    "custom/launcher": { "format": " 󰍉 ", "on-click": "wofi --show drun -i" },
+    "wlr/taskbar": { "format": "{icon}", "icon-size": 18, "on-click": "activate" },
+    "sway/workspaces": { "format": "{name}", "on-click": "activate" },
+    "network": { "format-wifi": "  ", "format-ethernet": " 󰈀 " },
+    "pulseaudio": { "format": "{icon}", "format-icons": {"default": ["󰕿", "󰖀", "󰕾"]} },
+    "custom/notification": { "format": " 󰂚 ", "on-click": "swaync-client -t -sw" },
+    "clock": { "format": "  {:%H:%M} " },
+    "custom/menu": { "format": " 󰍜 ", "on-click": "wlogout -b 2" }
+}

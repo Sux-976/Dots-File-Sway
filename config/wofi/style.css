@@ -1,0 +1,64 @@
+/* RESET E FONTE */
+* {
+    all: unset;
+    font-family: 'Lexend', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* JANELA PRINCIPAL (Transparente para evitar cantos pretos externos) */
+window {
+    background-color: transparent;
+}
+
+/* O CORPO DO WOFI */
+#outer-box {
+    margin: 10px;
+    background-color: #11111b; /* Preto Profundo */
+    border: 2px solid #cba6f7; /* Roxo Pastel */
+    border-radius: 16px;
+}
+
+/* CAIXA DE BUSCA */
+#input {
+    margin: 15px;
+    padding: 10px 15px;
+    border: 1px solid #313244;
+    border-radius: 10px;
+    color: #cba6f7;            /* Texto Roxo */
+    background-color: #1e1e2e; /* Cinza quase preto */
+}
+
+/* LISTA DE RESULTADOS */
+#scroll {
+    margin: 5px 10px 10px 10px;
+}
+
+#inner-box {
+    padding: 5px;
+}
+
+#entry {
+    padding: 10px;
+    margin: 3px 0px;
+    border-radius: 10px;
+    color: #cba6f7;            /* Itens da lista em Roxo */
+}
+
+/* QUANDO VOCÊ SELECIONA O APP */
+#entry:selected {
+    background-color: #cba6f7; /* Fundo Roxo Pastel */
+}
+
+#entry:selected #text {
+    color: #11111b;            /* Texto fica Preto */
+}
+
+/* ÍCONES DOS APPS */
+#img {
+    margin-right: 12px;
+}
+
+#text {
+    margin: auto 0;
+}

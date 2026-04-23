@@ -1,0 +1,39 @@
+* {
+    background-image: none;
+    box-shadow: none;
+}
+
+window {
+    background-color: rgba(17, 17, 27, 0.7); /* Fundo escuro transparente */
+}
+
+button {
+    color: #cba6f7; /* Texto Roxo */
+    background-color: #11111b; /* Fundo Preto */
+    border: 2px solid #cba6f7;
+    border-radius: 20px;
+    margin: 15px;
+    
+    /* Centraliza o ícone e define um tamanho fixo */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 48px; /* Aqui é o segredo: ajusta o tamanho do ícone */
+    
+    /* Move o texto para baixo do ícone */
+    padding-top: 80px; 
+    text-shadow: none;
+}
+
+button:focus, button:active, button:hover {
+    background-color: #cba6f7;
+    color: #11111b;
+}
+
+/* --- Ícones --- */
+/* Ajuste os caminhos se os seus ícones estiverem em outro lugar */
+#lock { background-image: image(url("/usr/share/wlogout/icons/lock.png")); }
+#logout { background-image: image(url("/usr/share/wlogout/icons/logout.png")); }
+#suspend { background-image: image(url("/usr/share/wlogout/icons/suspend.png")); }
+#hibernate { background-image: image(url("/usr/share/wlogout/icons/hibernate.png")); }
+#shutdown { background-image: image(url("/usr/share/wlogout/icons/shutdown.png")); }
+#reboot { background-image: image(url("/usr/share/wlogout/icons/reboot.png")); }

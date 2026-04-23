@@ -1,0 +1,73 @@
+* {
+    border: none;
+    font-family: "Lexend", sans-serif;
+    font-size: 13px;
+}
+
+window#waybar {
+    background-color: transparent; /* A barra de fundo do sistema fica invisível */
+}
+
+/* Criando a pílula única para cada seção ou para a barra toda */
+.modules-left,
+.modules-center,
+.modules-right {
+    background-color: #11111b; /* Cor de fundo única */
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px; /* Valor alto para garantir que fique redondo */
+    padding: 2px 8px;
+    transition: all 0.3s ease;
+}
+
+/* Se você quiser que a barra inteira seja UMA única pílula de ponta a ponta:
+   Remova o bloco acima e use este: */
+/*
+window#waybar > box {
+    background-color: #11111b;
+    border-radius: 20px;
+    margin: 0 5px;
+    padding: 2px 15px;
+}
+*/
+
+/* Ajuste dos ícones internos para não terem fundos próprios */
+#custom-launcher,
+#taskbar,
+#workspaces,
+#network,
+#pulseaudio,
+#custom-notification,
+#clock,
+#custom-menu {
+    background: transparent;
+    border-radius: 0;
+    margin: 0;
+    padding: 0 6px;
+    color: #a78bfa;
+}
+
+/* Destaque apenas no Workspace ativo */
+#workspaces button {
+    color: #585b70;
+    padding: 0 8px;
+}
+
+#workspaces button.focused,
+#workspaces button.active {
+    color: #cba6f7;
+    background: rgba(203, 166, 247, 0.15);
+    border-radius: 12px;
+}
+
+/* Cores específicas para dar vida à pílula */
+#custom-launcher { color: #89b4fa; }
+#clock { color: #f5e0dc; font-weight: bold; }
+#custom-menu { color: #f38ba8; }
+
+/* Efeito ao passar o mouse em módulos clicáveis */
+#custom-launcher:hover, 
+#custom-menu:hover,
+#workspaces button:hover {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+}

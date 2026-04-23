@@ -1,0 +1,73 @@
+{
+    // --- Configurações Gerais ---
+    "layer": "top",
+    "position": "top",
+    "height": 24,
+
+    // --- Margens Externas ---
+    "margin-top": 8,
+    "margin-left": 10,
+    "margin-right": 10,
+
+    // --- Layout dos Módulos ---
+    "modules-left": [
+        "custom/launcher", 
+        "wlr/taskbar"
+    ],
+    "modules-center": [
+        "sway/workspaces"
+    ],
+    "modules-right": [
+        "network", 
+        "pulseaudio", 
+        "custom/notification", 
+        "clock", 
+        "custom/menu"
+    ],
+
+    // --- Detalhes dos Módulos (Esquerda) ---
+    "custom/launcher": {
+        "format": " 󰍉 ",
+        "on-click": "wofi --show drun -i"
+    },
+
+    "wlr/taskbar": {
+        "format": "{icon}",
+        "icon-size": 18,
+        "on-click": "activate"
+    },
+
+    // --- Detalhes dos Módulos (Centro) ---
+    "sway/workspaces": {
+        "format": "{name}",
+        "on-click": "activate"
+    },
+
+    // --- Detalhes dos Módulos (Direita) ---
+    "network": {
+        "format-wifi": "  ",
+        "format-ethernet": " 󰈀 "
+    },
+
+    "pulseaudio": {
+        "format": "{icon}",
+        "on-click": "pavucontrol", // Dica: abre o controle de som ao clicar
+        "format-icons": {
+            "default": ["󰕿", "󰖀", "󰕾"]
+        }
+    },
+
+    "custom/notification": {
+        "format": " 󰂚 ",
+        "on-click": "swaync-client -t -sw"
+    },
+
+    "clock": {
+        "format": "  {:%H:%M} "
+    },
+
+    "custom/menu": {
+        "format": " 󰍜 ",
+        "on-click": "wlogout -b 2"
+    }
+}
