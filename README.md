@@ -77,3 +77,7 @@ A tecla **Super** (`Mod4`) é o modificador principal do sistema.
 ---
 
 *Configurado com foco em produtividade por Ramon*
+
+<img width="1366" height="768" alt="2026-04-23_08-46-43" src="https://github.com/user-attachments/assets/6dc5829f-c25f-4a5d-8dcc-3b70da3427c0" />
+
+<img width="1366" height="752" alt="2026-04-23_08-49-33" src="https://github.com/user-attachments/assets/8b2e7b93-8d87-4d99-be49-a99d10ea6f28" />
